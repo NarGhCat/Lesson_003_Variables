@@ -1,0 +1,6 @@
+let a = 10, b = 3;
+b = a - b;
+a = a - b;
+b = a + b;
+alert(a);
+alert(b);
